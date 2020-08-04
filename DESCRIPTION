@@ -1,18 +1,27 @@
 Package: cdsb2020this
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Ejemplo de biocthis para cdsb2020
+Version: 0.99.0
+Date: 2020-08-04
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    c(
+    person("Leonardo", "Collado-Torres", role = c("aut", "cre"), 
+    email = "lcolladotor@gmail.com", comment = c(ORCID = "0000-0003-2140-308X"))
+    )
+Description: Mostrando como usar biocthis.
+License: Artistic-2.0
+URL: https://github.com//lcolladotor/cdsb2020this
+BugReports: https://support.bioconductor.org/t/cdsb2020this
+biocViews: Software
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-URL: https://github.com/lcolladotor/cdsb2020this
-BugReports: https://github.com/lcolladotor/cdsb2020this/issues
+Suggests: 
+    testthat,
+    covr,
+    knitr,
+    BiocStyle,
+    knitcitations,
+    sessioninfo,
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,3 +1,5 @@
 ^cdsb2020this\.Rproj$
 ^\.Rproj\.user$
 ^dev$
+^\.github$
+^codecov\.yml$

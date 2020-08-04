@@ -1,0 +1,29 @@
+pkgVer <- function(pkg) {
+    if (!exists("meta") || is.null(meta)) meta <- packageDescription(pkg)
+    ver <- meta$Version
+    paste0('https://github.com/lcolladotor/', pkg, ' - R package version ', ver)
+}
+
+c(
+
+    bibentry(bibtype="manual",
+        title = "Ejemplo de biocthis para cdsb2020",
+        author = personList(
+            as.person("lcolladotor")
+        ),
+        year = format(Sys.Date(), "%Y"),
+        url = "http://www.bioconductor.org/packages/cdsb2020this",
+        note = pkgVer('cdsb2020this'),
+        doi = '10.18129/B9.bioc.cdsb2020this'
+    ),
+    bibentry(bibtype="article",
+        title = "Ejemplo de biocthis para cdsb2020",
+        author = personList(
+            as.person("lcolladotor")
+        ),
+        year = 2020,
+        journal = "bioRxiv",
+        doi = "10.1101/TODO",
+        url = "https://www.biorxiv.org/content/10.1101/TODO"
+    )
+)
