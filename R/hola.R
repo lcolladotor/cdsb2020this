@@ -9,5 +9,5 @@
 #'
 #' @examples
 hola <- function(nombre) {
-    paste0("¡Hola ", nombre, "!")
+    paste0("Hola ", nombre, "=)")
 }
