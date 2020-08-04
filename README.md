@@ -77,7 +77,7 @@ Please run this yourself to check for any updates on how to cite
 **cdsb2020this**.
 
 ``` r
-print(citation('cdsb2020this'), bibtex = TRUE)
+print(citation("cdsb2020this"), bibtex = TRUE)
 #> 
 #> lcolladotor (2020). _Ejemplo de biocthis para cdsb2020_. doi:
 #> 10.18129/B9.bioc.cdsb2020this (URL:
